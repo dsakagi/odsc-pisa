@@ -21,8 +21,10 @@ environments, you can get set up with the following:
 mkvirtualenv odsc
 git clone https://github.com/dsakagi/odsc-pisa.git
 cd odsc-pisa
-pip install -r requirements.txt
+make
 ```
 
-It will take a while, especially if you have to compile scikit-learn
+It will take a while, as it will both setup your new virtualenv with
+the packages we need, as well as download the data we will be playing
+with.
 
