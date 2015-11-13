@@ -1,7 +1,7 @@
 An Intro to Data Science with Python
 ====================================
 
-This is the material used for the introduction Data Science with 
+This is the material used for the introduction Data Science with
 Python workshop. It uses Jupyter notebook, pandas, matplotlib,
 seaborn, and scikit-learn.
 
@@ -19,7 +19,7 @@ environments, you can get set up with the following:
 
 ```
 mkvirtualenv odsc
-git clone https://github.com/dsakagi/odsc-pisa.git
+git clone https://github.com/joshloyal/odsc-pisa.git
 cd odsc-pisa
 make
 ```
