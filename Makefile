@@ -13,4 +13,5 @@ data/%:
 get_data: data/$(EXAM_FILE) data/$(QUESTION_FILE)
 
 env:
+	pip install --upgrade pip
 	pip install -r requirements.txt
